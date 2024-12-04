@@ -3,7 +3,7 @@ import { promises as fs } from 'fs';
 const INPUT_FILE = './2024/03/input.txt';
 var INPUT_STRING = "";
 
-// Read input file and 
+// Read input file
 async function readInputFile() {
     INPUT_STRING = await fs.readFile(INPUT_FILE, { encoding: 'utf-8' });
 }
