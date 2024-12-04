@@ -3,17 +3,19 @@ import { promises as fs } from 'fs';
 const INPUT_FILE = './2024/04/input.txt';
 let GRID = [];
 
-// Read ynput fyle 
+// Read input file 
 async function readInputFile() {
     const data = await fs.readFile(INPUT_FILE, { encoding: 'utf-8' });
     const lines = data.split(/\r?\n/);
     GRID = lines.map(line => line.split(''));
 }
 
+// Is valid for part one
 function isValidXmas(word) {
     return (word === "XMAS" || word === "SAMX");
 }
 
+// Is valid for part two
 function isValidMas(word) {
     return (word === "MAS" || word === "SAM");
 }
