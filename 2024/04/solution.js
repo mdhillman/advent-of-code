@@ -10,12 +10,12 @@ async function readInputFile() {
     GRID = lines.map(line => line.split(''));
 }
 
-// Is valid word for part one
+// Is valid for part one
 function isValidXmas(word) {
     return (word === "XMAS" || word === "SAMX");
 }
 
-// Is valid word for part two
+// Is valid for part two
 function isValidMas(word) {
     return (word === "MAS" || word === "SAM");
 }
