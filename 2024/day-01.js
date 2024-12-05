@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 
-const INPUT_FILE = './2024/01/input.txt';
+const INPUT_FILE = './2024/input.txt';
 const LEFT_LOCATIONS = [];
 const RIGHT_LOCATIONS = [];
 

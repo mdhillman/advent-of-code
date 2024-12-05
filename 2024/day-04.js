@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 
-const INPUT_FILE = './2024/04/input.txt';
+const INPUT_FILE = './2024/input.txt';
 let GRID = [];
 
 // Read input file 

@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 
-const INPUT_FILE = './2024/02/input.txt';
+const INPUT_FILE = './2024/input.txt';
 const REPORTS = [];
 
 // Read input file and split into numerical reports
